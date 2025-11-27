@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+/* main-section-start */
+.header-top {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    position: fixed;
+    top: 0px;
+}
+
+/* main-section-end */
+
+/* header-section-start */
+
+.main-header {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+
+}
+
+.logo {
+    height: 100%;
+    width: 5%;
+    background-color: #555050;
+    margin-left: 30px;
+    float: left;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+
+
+/* search-bar */
+.search-section {
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    background-color: rgb(84, 80, 80);
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+
+
+.search-bar button img {
+    width: 40px;
+}
+
+/* search-bar-end */
+
+.home-link-section {
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+
+.home-link-section ul li {
+    float: left;
+    list-style-type: none;
+
+
+}
+
+.home-link-section ul {
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+}
+
+.home-link-section ul li a {
+    color: white;
+    display: inline;
+}
+
+.home-link-section ul li a:hover {
+    padding: 20px 0px;
+    background-color: white;
+    color: black;
+
+}
+
+/* header-section-end */
+
+/* small-header */
+
+.small-header {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    position: fixed;
+    top: 80px;
+}
+
+/* small-header-end */
+
+/* background-image */
+.background-image {
+    height: 800px;
+    width: 100%;
+}
+
+.background-image img {
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 67px;
+}
+
+/* background-image-end */
+
+.long {
+    width: 100%;
+    height: 200%;
+    background-color: red;
+}
+
+.shuvo-image {
+    height: 100%;
+    width: 100%;
+}
+
+.shuvo {
+    height: 100%;
+    width: 48%;
+    background-image: url("559266645_833335992712554_8998146364814015538_n.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.shuvo1 {
+    height: 100%;
+    width: 48%;
+    background-image: url("553179255_818109534235200_7253864899256576488_n.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+
+}

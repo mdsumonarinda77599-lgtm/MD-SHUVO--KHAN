@@ -1,0 +1,445 @@
+@media (min-width: 320Px) and (max-width:350px) {
+    body {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    /* main-section-start */
+    .header-top {
+        height: 10px;
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+        position: fixed;
+        top: 0px;
+    }
+
+    /* main-section-end */
+
+    /* header-section-start */
+
+    .main-header {
+        height: 30px;
+        width: 100%;
+        background-color: rgb(28, 28, 28);
+        overflow: hidden;
+        position: fixed;
+        top: 10px;
+
+    }
+
+    .logo {
+        height: 100%;
+        width: 5%;
+        background-color: #555050;
+        margin-left: 5px;
+        float: left;
+    }
+
+    .logo img {
+        height: 76%;
+        width: 95%;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin-top: 4px;
+    }
+
+
+
+    /* search-bar */
+    .search-section {
+        height: 18px;
+        width: 33%;
+        float: left;
+        display: flex;
+        background-color: rgb(84, 80, 80);
+        padding: 6px 0px 5px 3px;
+        border-radius: 0px;
+
+
+
+    }
+
+    .search-bar {
+        width: 95%;
+        display: flex;
+        padding: 0px 0px 0px 0px;
+
+
+    }
+
+    .search-bar input {
+        flex: 1;
+        font-size: 6px;
+        color: black;
+        padding: 0px 0px 0px 5px;
+        border-radius: 0px;
+
+    }
+
+
+
+    .search-bar button img {
+        width: 18px;
+    }
+
+    /* search-bar-end */
+
+    .home-link-section {
+        height: 100%;
+        width: 56%;
+        float: left;
+        margin-left: 0%;
+
+    }
+
+    .home-link-section ul li {
+        float: left;
+        list-style-type: none;
+
+
+    }
+
+    .home-link-section ul {
+        display: flex;
+        gap: 3px;
+        padding: 3px;
+        margin-left: 0px;
+    }
+
+    .home-link-section ul li a {
+        color: white;
+        display: inline;
+        font-size: 8px;
+    }
+
+    .home-link-section ul li a:hover {
+        padding: 20px 0px;
+        background-color: white;
+        color: black;
+
+    }
+
+    /* header-section-end */
+
+    /* small-header */
+
+    .small-header {
+        height: 10px;
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+        position: fixed;
+        top: 39px;
+    }
+
+    /* small-header-end */
+
+    /* background-image */
+    .background-image {
+        height: 300px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media (min-width: 350Px) and (max-width:700px) {
+
+
+    /* main-section-start */
+    .header-top {
+        height: 10px;
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+        position: fixed;
+        top: 0px;
+    }
+
+    /* main-section-end */
+
+    /* header-section-start */
+
+    .main-header {
+        height: 30px;
+        width: 100%;
+        background-color: rgb(28, 28, 28);
+        overflow: hidden;
+        position: fixed;
+        top: 10px;
+
+    }
+
+    .logo {
+        height: 100%;
+        width: 5%;
+        background-color: #555050;
+        margin-left: 5px;
+        float: left;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+        background-size: 100% 100%;
+        border-radius: 50%;
+    }
+
+
+
+    /* search-bar */
+    .search-section {
+        height: 18px;
+        width: 33%;
+        float: left;
+        display: flex;
+        background-color: rgb(84, 80, 80);
+        padding: 4px 0px 3px 3px;
+        border-radius: 0px;
+
+
+
+    }
+
+    .search-bar {
+        width: 95%;
+        display: flex;
+        padding: 0px 0px 0px 0px;
+
+
+    }
+
+    .search-bar input {
+        flex: 1;
+        font-size: 8px;
+        color: black;
+        padding: 0px 0px 0px 5px;
+        border-radius: 0px;
+
+    }
+
+
+
+    .search-bar button img {
+        width: 18px;
+    }
+
+    /* search-bar-end */
+
+    .home-link-section {
+        height: 100%;
+        width: 56%;
+        float: left;
+        margin-left: 0%;
+    }
+
+    .home-link-section ul li {
+        float: left;
+        list-style-type: none;
+
+
+    }
+
+    .home-link-section ul {
+        display: flex;
+        gap: 7px;
+        padding: 3px;
+        margin-left: 5px;
+    }
+
+    .home-link-section ul li a {
+        color: white;
+        display: inline;
+        font-size: 8px;
+    }
+
+    .home-link-section ul li a:hover {
+        padding: 20px 0px;
+        background-color: white;
+        color: black;
+
+    }
+
+    /* header-section-end */
+
+    /* small-header */
+
+    .small-header {
+        height: 10px;
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+        position: fixed;
+        top: 39px;
+    }
+
+    /* small-header-end */
+
+    /* background-image */
+    .background-image {
+        height: 300px;
+        width: 100%;
+    }
+
+    /* background-image-end */
+
+}
+
+
+
+@media (max-width: 400Px) and (max-width:450px) {
+    .home-link-section {
+        height: 100%;
+        width: 56%;
+        float: left;
+        margin-left: 0%;
+    }
+
+    .home-link-section ul {
+        display: flex;
+        gap: 10px !important;
+        padding: 3px;
+        margin-left: 5px;
+    }
+}
+
+
+@media (min-width: 450Px) and (max-width:500px) {
+    .home-link-section ul {
+        gap: 20px !important;
+        padding: 3px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 500Px) and (max-width:550px) {
+    .home-link-section ul {
+        gap: 25px !important;
+        padding: 3px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 550Px) and (max-width:600px) {
+    .home-link-section ul {
+        gap: 30px !important;
+        padding: 3px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 600Px) and (max-width:650px) {
+    .home-link-section ul {
+        gap: 30px !important;
+        padding: 3px;
+        margin-left: 70px !important;
+    }
+}
+
+
+
+@media (min-width:1140px) {
+    .home-link-section ul {
+        display: flex;
+        gap: 20px !important;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 2560Px) and (max-width:2700px) {
+    .logo img {
+        height: 96%;
+        width: 50%;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin: 0px 0px 0px 30px;
+    }
+
+    .home-link-section ul {
+        display: flex;
+        gap: 103px !important;
+        padding: 17px;
+        margin-left: 13px !important;
+    }
+
+    .background-image img {
+        height: 1168px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+}
+
+
+@media only screen and (device-width:375px) and (device-height:812px),
+screen and (device-width:414px) and (device-height:896px) {
+    .khan {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+@media only screen and (device-width:414px) and (device-width:550px) {
+    .sukhi {
+        height: 100px;
+        width: 500px;
+    }
+}
+
+@media (device-width:768px) {
+    .search-section {
+        width: 36%;
+    }
+
+    .search-bar input {
+        font-size: 14px;
+    }
+
+    .search-bar {
+        padding: 14px 11px;
+    }
+
+    .search-bar button img {
+        width: 32px;
+
+    }
+
+
+    .home-link-section {
+        width: 43%;
+    }
+
+    .home-link-section ul {
+        display: flex;
+        gap: 5px;
+        padding: 17px 0px 0px 0px;
+    }
+
+
+}
+
+@media (device-width:1024px) {
+    .search-section {
+        height: 100%;
+        width: 40%;
+        float: left;
+        display: flex;
+        background-color: rgb(84, 80, 80);
+        margin-left: 3px;
+        border-radius: 10px;
+
+    }
+
+    .home-link-section {
+        height: 100%;
+        width: 37%;
+        float: left;
+    }
+
+    .home-link-section ul {
+        display: flex;
+        gap: 13px !important;
+        padding: 16px 0px 0px 0px;
+    }
+}
